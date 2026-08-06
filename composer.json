@@ -3,13 +3,21 @@
     "description": "HKM Kernel plugin providing 'http.cookies'.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["hkm-kernel", "plugin", "php", "http.cookies"],
+    "keywords": [
+        "hkm-kernel",
+        "plugin",
+        "php",
+        "http.cookies"
+    ],
     "require": {
         "php": ">=8.4"
     },
     "autoload": {
         "psr-4": {
             "Plugins\\Cookie\\": ""
-        }
+        },
+        "files": [
+            "Support/helpers.php"
+        ]
     }
 }
