@@ -1,6 +1,7 @@
 {
     "name": "cookie",
     "version": "1.0.0",
+    "kernel": "^1.0",
     "solves": "http.cookies",
     "type": "module",
 
